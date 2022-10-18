@@ -40,6 +40,7 @@ public class RechargeController {
 		ModelAndView mv = new ModelAndView("transactionReport");
 		mv.addObject("offer",offer);
 		mv.addObject("bill",bill);
+		system.out.println(bill.setMobileNumber(num));
 		return mv;
 	}
 }
