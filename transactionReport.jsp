@@ -10,7 +10,7 @@
 <body>
 <div align = "center">
 <h1 style="color:red">
-Bill for Recharge on mobile number: 
+Bill for Recharge on mobile number: ${bill.mobileNumber}
 </h1>
 <br/>
 <h2>
